@@ -1,0 +1,573 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #121212;
+  position: relative;
+  position: sticky;
+}
+
+/* frame 1 */
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+  height: 630px;
+  background-color: #202022;
+  position: absolute;
+  left: 130px;
+  top: 60px;
+  border: 1px solid #3f3f40;
+  border-radius: 25px;
+  z-index: 1;
+  position: fixed;
+}
+
+/* picture */
+
+.main_pic {
+  width: 150px;
+  position: absolute;
+  top: 50px;
+  left: 75px;
+  border-radius: 25px;
+  border: 3.5px solid #b68f0d;
+}
+
+.title {
+  align-items: center;
+  color: aliceblue;
+  position: absolute;
+  left: 45px;
+  font-size: medium;
+  top: 230px;
+}
+
+.text {
+  position: absolute;
+  color: aliceblue;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  font-size: smaller;
+}
+
+.line1 {
+  position: absolute;
+  background-color: aliceblue;
+  width: 200px;
+  bottom: 50px;
+}
+
+.line2 {
+  position: absolute;
+  width: 200px;
+  bottom: 200px;
+  filter: opacity(30%);
+}
+
+/* icons */
+.icons {
+  position: absolute;
+  bottom: 40px;
+  color: aliceblue;
+  left: 45px;
+}
+
+.github:hover {
+  color: #b68f0d;
+}
+
+.telegram:hover {
+  color: #b68f0d;
+}
+
+.gmail:hover {
+  color: #b68f0d;
+}
+
+.whats_up:hover {
+  color: #b68f0d;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 13px;
+}
+
+/* frame2 */
+
+.about {
+  width: 125vh;
+  height: 2060px;
+  background-color: #202022;
+  position: absolute;
+  left: 450px;
+  top: 60px;
+  border: 1px solid #3f3f40;
+  border-radius: 25px;
+}
+
+.title2 {
+  color: aliceblue;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f3f40;
+  right: 0.1px;
+  width: 450px;
+  height: 50px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px;
+}
+
+a:hover {
+  color: #b68f0d;
+}
+
+.line1 {
+  position: absolute;
+  background-color: #b68f0d;
+  width: 60px;
+  height: 6px;
+  top: 70px;
+  left: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.text2 {
+  color: #c6c6c7;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  right: 30px;
+  text-align: justify;
+  text-wrap: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.title3 {
+  color: aliceblue;
+  position: absolute;
+  left: 30px;
+  top: 300px;
+}
+
+.line3 {
+  position: absolute;
+  background-color: #b68f0d;
+  width: 60px;
+  height: 6px;
+  top: 350px;
+  left: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* download cv */
+
+.yuklash-tugmasi {
+  position: absolute;
+  top: 440px;
+  left: 40px;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #b68f0d;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid transparent;
+  transition: background-color 0.3s ease;
+}
+
+.yuklash-tugmasi:hover {
+  background-color: #3f3f40;
+}
+
+.text3 {
+  color: #c6c6c7;
+  position: absolute;
+  top: 380px;
+  left: 40px;
+  right: 30px;
+  text-align: justify;
+  text-wrap: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+/* my skills */
+.title4 {
+  color: aliceblue;
+  position: absolute;
+  left: 30px;
+  top: 550px;
+}
+
+.line4 {
+  position: absolute;
+  background-color: #b68f0d;
+  width: 60px;
+  height: 6px;
+  top: 600px;
+  left: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.ramka {
+  position: absolute;
+  top: 650px;
+  width: 300px;
+  left: 30px;
+  text-align: justify;
+  padding: 15px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border: 2px solid #b68f0d;
+}
+
+.text4 {
+  font-size: 12px;
+  color: #d2d2d6;
+}
+
+/* skills percentage */
+
+.html {
+  position: absolute;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 660px;
+  left: 350px;
+}
+
+.css {
+  position: absolute;
+  width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 662px;
+  left: 510px;
+}
+
+.js {
+  position: absolute;
+  width: 200 px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 662px;
+  left: 670px;
+}
+
+/* Blog */
+
+.title5 {
+  color: aliceblue;
+  position: absolute;
+  left: 30px;
+  top: 950px;
+}
+
+.line5 {
+  position: absolute;
+  background-color: #b68f0d;
+  width: 60px;
+  height: 6px;
+  top: 1000px;
+  left: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* cards */
+.glass-card1 {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  font-family: sans-serif;
+  top: 1050px;
+  left: 40px;
+}
+
+.glass-card2 {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  font-family: sans-serif;
+  top: 1050px;
+  left: 320px;
+}
+
+.glass-card3 {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  font-family: sans-serif;
+  top: 1050px;
+  left: 600px;
+}
+
+/* contact */
+
+.title6 {
+  color: aliceblue;
+  position: absolute;
+  left: 30px;
+  top: 1400px;
+}
+
+.line6 {
+  position: absolute;
+  background-color: #b68f0d;
+  width: 60px;
+  height: 6px;
+  top: 1450px;
+  left: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* fomrs */
+.contact-section {
+  position: absolute;
+  top: 1460px;
+  left: 50px;
+  width: 800px;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.contact-title {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.contact-sub {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  outline: none;
+}
+
+.btn-submit {
+  align-self: flex-start;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #b68f0d;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* logos */
+
+.img1 {
+  width: 100px;
+  position: absolute;
+  filter: grayscale(100%);
+  top: 1850px;
+  left: 50px;
+  transition: filter 0.5s ease;
+}
+
+.img1:hover {
+  filter: none;
+}
+
+.img2 {
+  width: 90px;
+  filter: grayscale(100%);
+  position: absolute;
+  top: 1870px;
+  left: 250px;
+}
+
+.img2:hover {
+  filter: none;
+}
+
+.img3 {
+  filter: grayscale(100%);
+  width: 120px;
+  position: absolute;
+  top: 1850px;
+  left: 400px;
+}
+.img3:hover {
+  filter: none;
+}
+
+.img4 {
+  width: 120px;
+  filter: grayscale(100%);
+
+  position: absolute;
+  top: 1840px;
+  left: 590px;
+}
+.img4:hover {
+  filter: none;
+}
+
+.img5 {
+  width: 100px;
+  filter: grayscale(100%);
+
+  position: absolute;
+  top: 1850px;
+  left: 770px;
+}
+
+.img5:hover {
+  filter: none;
+}
+
+footer {
+  position: absolute;
+  top: 2020px;
+  color: #c6c6c7;
+  left: 280px;
+  font-size: smaller;
+}
+
+.space {
+  position: absolute;
+  padding: 50px;
+  top: 2000px;
+}
+
+/* size for devices */
+
+/* blog cards parent */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap; /* joy yetmasa pastga tushadi */
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* kartalar */
+.glass-card {
+  width: 250px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+  .glass-card {
+    width: 90%;
+    height: auto;
+  }
+}
+
+.contact-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    width: 95%;
+    padding: 15px;
+  }
+}
+
+/* Kompyuter (default holat) */
+.main {
+  position: fixed;   /* joyida turadi */
+  left: 130px;
+  top: 60px;
+}
+
+/* Telefon ekrani uchun */
+@media (max-width: 768px) {
+  .main {
+    position: relative;   /* scroll qilinadi */
+    left: 0;
+    top: 60;
+    margin: 0 auto;       /* markazga tushadi */
+  }
+}
+
